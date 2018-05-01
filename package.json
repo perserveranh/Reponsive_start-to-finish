@@ -1,0 +1,25 @@
+{
+  "name": "reponsive_start-to-finish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtait257/Reponsive_start-to-finish.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtait257/Reponsive_start-to-finish/issues"
+  },
+  "homepage": "https://github.com/vtait257/Reponsive_start-to-finish#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.1"
+  }
+}
