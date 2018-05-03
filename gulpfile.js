@@ -18,11 +18,13 @@ gulp.task('serve', [], function () {
     gulp.watch(['*.html'], reload);
     gulp.watch(['./js/*.js'], reload);
     gulp.watch(['./css/*.css'], reload);
-    gulp.watch(['./sass/main.scss'],reload);
+    gulp.watch(['sass/**/*.scss'],reload);
+    gulp.watch(['sass'],reload);
 });
 
 gulp.task('sass',function(){
 return gulp.src('./sass/main.scss')
 .pipe(sass())
 .pipe(gulp.dest('./css'));
+ gulp.watch(['sass/**/*.scss'],reload);
 });

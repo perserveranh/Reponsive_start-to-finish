@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/vtait257/Reponsive_start-to-finish#readme",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "browser-sync": "^2.24.1",

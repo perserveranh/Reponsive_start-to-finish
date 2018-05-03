@@ -2,7 +2,26 @@
 
 // config files and helpers
 @import "sass/abstracts/colors";
+@import "sass/abstracts/type";
 
 
 // Vendor
 @import "sass/vendor/normalize";
+
+
+// base
+@import "sass/base/base";
+@import "sass/base/typography";
+
+//layout
+@import "sass/layout/grid";
+@import "sass/layout/header";
+@import "sass/layout/hero";
+@import "sass/layout/nav";
+@import "sass/layout/home-promo";
+@import "sass/layout/home-sales-points";
+@import "sass/layout/footer";
+
+// component
+@import "sass/components/buttons";	
+@import "sass/components/cta";
